@@ -14,6 +14,7 @@ public class UnitOfMeasure {
 	@Id
 	@GeneratedValue
 	private Integer id;
+	private String viswa;
 	private String uomType;
 	private String uomModel;
 	private String description;
