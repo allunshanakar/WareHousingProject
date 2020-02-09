@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.exception.UomTypeNotFoundException;
 import com.example.demo.model.UnitOfMeasure;
 import com.example.demo.service.IUnitOfMeasureService;
 
@@ -24,8 +25,15 @@ public class UnitOfMeasureController {
 		
 		ResponseEntity<String> response=null;
 		try {
-			Integer id=unitOfMeasure.saveUom(uom);
-			response=new ResponseEntity<>("saved with id:"+id,HttpStatus.OK);
+			
+				if(uom.getUomType()!=null) {
+					Integer id=unitOfMeasure.saveUom(uom);
+					response=new ResponseEntity<>("saved with id:"+id,HttpStatus.OK);
+				}
+				else {
+					throw new UomTypeNotFoundException("Type Not found");
+				}
+			
 		} catch (Exception e) {
              response=new ResponseEntity<String>(e.getMessage(),HttpStatus.BAD_REQUEST);
 		}
