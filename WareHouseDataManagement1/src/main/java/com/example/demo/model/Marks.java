@@ -12,7 +12,7 @@ import lombok.Data;
 public class Marks {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	//@GeneratedValue
 	private String test_id;
 	private String subject;
 	private String result;

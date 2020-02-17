@@ -12,7 +12,7 @@ import lombok.Data;
 public class Adress {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@GeneratedValue
 	private Integer a_id;
 	private String street;
 	private String state;
