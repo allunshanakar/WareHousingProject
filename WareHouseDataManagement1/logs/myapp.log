@@ -1,0 +1,16 @@
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:26) save method started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:29) service layer method call started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:31) getting response from save method 
+2020:02:25DEBUG com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:33) ordermethod saved with1-->200 OK 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:26) save method started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:29) service layer method call started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:31) getting response from save method 
+2020:02:25DEBUG com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:33) ordermethod saved with1-->200 OK 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:26) save method started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:29) service layer method call started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:31) getting response from save method 
+2020:02:25DEBUG com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:33) ordermethod saved with2-->200 OK 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:26) save method started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:31) service layer method call started 
+2020:02:25INFO com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:33) getting response from save method 
+2020:02:25DEBUG com.example.demo.controller.OrderMethodController com.example.demo.controller.OrderMethodController.saveOrderMethod(OrderMethodController.java:35) ordermethod saved with1-->200 OK 

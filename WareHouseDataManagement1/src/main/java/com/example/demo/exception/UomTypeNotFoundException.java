@@ -1,6 +1,7 @@
 package com.example.demo.exception;
 
 
+@SuppressWarnings("serial")
 public class UomTypeNotFoundException extends RuntimeException{
 
 	public UomTypeNotFoundException(String message) {
@@ -10,7 +11,4 @@ public class UomTypeNotFoundException extends RuntimeException{
 	public UomTypeNotFoundException() {
 		super();
 	}
-
-	
-
 }
